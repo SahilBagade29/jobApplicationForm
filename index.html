@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/cv-writing-job-application-resume-gray-icon-vector-graphics-various-use-187075464.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="applybox">
+            <h1>JOB APPLICATION
+                <span class="small">(web)</span>
+            </h1>
+            <form action="">
+                <div class="from_container">
+                    <div class="form_control">
+                        <label for="First_Name"> First Name </label>
+                        <input 
+                        type="text" id="First_Name"
+                        name="First_Name"
+                        placeholder="Enter your First_Name...."
+                        />
+                 </div>
+                <div class="form_control">
+                    <label for="Last_Name"> Last Name </label>
+                    <input 
+                    type="text" 
+                    id="Last_Name"
+                    name="Last_Name"
+                    placeholder="Enter your Last_Name...."
+                    />
+                </div>
+            <div class="form_control">
+                <label for="Email"> Email </label>
+                <input 
+                type="email" 
+                id="Email"
+                name="Email"
+                placeholder="Enter your Email...."
+                />
+            </div>
+            <div class="form_control">
+                <label for="Job_Role"> Job Role </label>
+                <select name="Job_Role" id="Job_Role">
+                <option value=""> Select your Job Role </option>
+                <option value="FrontEnd Developer"> FrontEnd Developer </option>
+                <option value="BackEnd Developer"> BackEnd Developer </option>
+                <option value="SalesMan"> SalesMan </option>
+                <option value="SQL Developer"> SQL Developer </option>
+                <option value="Full Stack Developer"> Full Stack Developer </option>
+                </select>
+            </div>
+            <div class="textarea_control">
+                <label for="Address"> Address </label>
+                <textarea
+                    name="Address"
+                    id="Address" 
+                    cols="20" 
+                    rows="5"
+                    placeholder=" Address... "
+                ></textarea>
+            </div>
+                <div class="form_control">
+                    <label for="City"> City </label>
+                    <input 
+                    type="City" 
+                    id="City"
+                    name="City"
+                    placeholder="Enter your City...."
+                    />
+                </div>
+                <div class="form_control">
+                    <label for="Pincode"> Pincode </label>
+                    <input 
+                    type="number"
+                    value="Pincode" 
+                    id="Pincode"
+                    name="Pincode"
+                    placeholder="Enter Pincode...."
+                    />
+                </div>
+                    <div class="form_control">
+                        <label for="Date"> Date </label>
+                        <input 
+                        type="date" 
+                        id="Date"
+                        name="Date"
+                        placeholder="Enter Pincode...."
+                        />
+                    </div>
+                <div class="form_control">
+                    <label for="Uplode"> Uplode </label>
+                    <input 
+                    type="file" 
+                    id="Uplode"
+                    name="Uplode"
+                    />
+                </div>
+            </div>
+            <div class="button_container">
+                <button type="submit">Apply Now</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
